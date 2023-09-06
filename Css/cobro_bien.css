@@ -1,0 +1,22 @@
+body {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fondo {
+  background-image: url(../Imágenes/dolar.jpg);
+}
+.boton {
+  width: 350px;
+  height: 60px;
+  background-color: black;
+  border: 2px solid #00a74a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.boton:hover {
+  background-color: #00a74a; /* Cambia el color del texto al pasar el mouse */
+}
